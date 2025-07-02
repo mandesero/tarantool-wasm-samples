@@ -1,0 +1,10 @@
+{
+  "language": "rust",
+  "world": "adder",
+  "wit": {
+    "path": "wit",
+    "package": "docs:adder@0.1.0"
+  },
+  "source": "src/lib.rs",
+  "output": "dist/adder.wasm"
+}

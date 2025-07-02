@@ -1,0 +1,4 @@
+async-timeout==5.0.1
+redis==8.1.0
+
+--only-binary=:all:

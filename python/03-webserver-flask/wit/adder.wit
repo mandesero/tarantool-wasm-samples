@@ -1,0 +1,26 @@
+package docs:adder@0.1.3;
+
+/// Experimental runtime-local callback contract. It is not yet published as
+/// part of tarantool:tarantool.
+interface lua-callback {
+  resource handler {
+    call: func(payload: list<u8>) -> result<list<u8>, string>;
+  }
+
+  open: func(name: string) -> result<handler, string>;
+}
+
+/// Host zlib functions used by Flask/Werkzeug in componentize-py.
+interface zlib {
+  compress: func(data: list<u8>, level: u32) -> list<u8>;
+  decompress: func(data: list<u8>) -> list<u8>;
+  crc32: func(data: list<u8>) -> u32;
+  adler32: func(data: list<u8>) -> u32;
+}
+
+world adder {
+  import lua-callback;
+  import zlib;
+  import tarantool:tarantool/msgpack@0.1.4;
+  export wasi:cli/run@0.2.3;
+}

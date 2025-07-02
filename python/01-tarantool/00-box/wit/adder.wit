@@ -1,0 +1,12 @@
+package docs:adder@0.1.0;
+
+world adder {
+  import tarantool:tarantool/types@0.1.4;
+  import tarantool:tarantool/msgpack@0.1.4;
+  import tarantool:tarantool/ttbox@0.1.4;
+  import tarantool:tarantool/say@0.1.4;
+  import tarantool:tarantool/txn@0.1.4;
+  import tarantool:tarantool/index@0.1.4;
+  import tarantool:tarantool/box-tuple@0.1.4;
+  export wasi:cli/run@0.2.3;
+}
