@@ -1,0 +1,6 @@
+package docs:adder@0.1.0;
+
+world adder {
+  import tarantool:tarantool/log@0.2.0;
+  export wasi:cli/run@0.2.3;
+}

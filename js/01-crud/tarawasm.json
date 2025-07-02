@@ -1,0 +1,10 @@
+{
+  "language": "js",
+  "world": "adder",
+  "wit": {
+    "path": "wit",
+    "package": "docs:adder@0.1.0"
+  },
+  "source": "main.js",
+  "output": "dist/adder.wasm"
+}

@@ -1,0 +1,12 @@
+319026d8f56ef27348803376e6d27d372868216716415dd736c605065887cdd8  wit-deps/tarantool-tarantool-0.2.0.wasm
+8f97d837e1f856a225422869d5c34752204d1befb5a04d0cd80541aec17a20c1  wit-deps/wasi-cli-0.2.3.wasm
+3bbed4e582d6209cf281cfe94e51d64fd0c9507635c5e1c68795f493b6cdada9  wit-deps/wasi-clocks-0.2.3.wasm
+a8e65d5b946d9c374ae6832ca6f90316e9b51e6f2a8d9691032cd91e25fe221f  wit-deps/wasi-filesystem-0.2.3.wasm
+e526c1586efc94cd148e33725139be05c4bb58ba20466d348282bd8dc3999f1d  wit-deps/wasi-http-0.2.3.wasm
+06b1e3bfc7548e3c0c06a78b4c1f98a3fa81b8b231ea3d4e7602fe221e2f3cc5  wit-deps/wasi-io-0.2.3.wasm
+90bff11fae5e2df9196ee89cd00d374792dce8afadf5c4c761a834ed760588e3  wit-deps/wasi-random-0.2.3.wasm
+dcbe3e55d025d3b3a7ee959c4f74119be0d7d85d1289d4ac6d29a4a37b4d47d7  wit-deps/wasi-sockets-0.2.3.wasm
+dc52caf0f6be3180892406832b4c6e0c875f67e58f47044fc31fa80689846bc9  wit-deps/wasi-tls-0.2.0-draft/types.wit
+a3bdaec14f66bf816979f61f051eae29afd4d448d2c1efe37131333cd56ec980  wit-deps/wasi-tls-0.2.0-draft/world.wit
+0416590f3f47381bb5b9b467c27824d1228fac58b8031d693130865273ffefcb  wit-deps/wasi-tls-0.2.0-draft/LICENSE.md
+8af45baa12104b4968e8e4b5f9046a8ec5586a74284474dd4185ceccf88a0682  wit-deps/wasi-tls-0.2.0-draft/SOURCE.md
