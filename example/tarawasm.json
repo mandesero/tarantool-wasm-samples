@@ -1,0 +1,7 @@
+{
+  "world": "grpc",
+  "lang": "python",
+  "wit_path": "wit",
+  "src_file": "main.py",
+  "wasm_file": "example:grpc@0.1.0.wasm"
+}

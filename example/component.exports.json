@@ -1,0 +1,24 @@
+[
+  {
+    "name": "call",
+    "params": [
+      [
+        "address",
+        "string"
+      ],
+      [
+        "service",
+        "string"
+      ],
+      [
+        "method",
+        "string"
+      ],
+      [
+        "args",
+        "v-arg"
+      ]
+    ],
+    "result": "responce"
+  }
+]

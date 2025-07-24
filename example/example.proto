@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package example;
+
+service Greeter {
+  rpc SayHello (HelloRequest) returns (HelloReply) {}
+  rpc ProcessNumber (NumberRequest) returns (NumberReply) {}
+}
+
+message HelloRequest {
+  string name = 1;
+}
+
+message HelloReply {
+  string message = 1;
+}
+
+message NumberRequest {
+  int32 value = 1;
+}
+
+message NumberReply {
+  int32 result = 1;
+}
