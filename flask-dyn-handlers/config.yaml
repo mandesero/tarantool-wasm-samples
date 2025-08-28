@@ -1,0 +1,25 @@
+credentials:
+  users:
+    guest:
+      roles: [super]
+
+groups:
+  group-001:
+    replicasets:
+      replicaset-001:
+        instances:
+          instance-001: {}
+
+app:
+  file: 'run.lua'
+
+wasm:
+  components:
+    hello:
+      path: "."
+      autorun: true
+      env:
+        vars:
+          GREETING: 'Tarantool'
+      stdio:
+        stdout_path: ./out.log
