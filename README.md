@@ -138,6 +138,14 @@ docker run --rm -v "$PWD:/work" -w /work/python/00-basic \
   mandeser0/tarawasm:v0.3.0 all
 ```
 
+### Language-independent sample
+
+[`pgrust/`](pgrust/) runs a persistent single-user PostgreSQL backend through
+`wasi:cli/run` and exchanges PostgreSQL wire messages over duplex `wasm.pipe`
+streams. It uses the upstream pgrust build instead of the common `tarawasm`
+Makefile workflow. The sample creates and fills a table, then executes a
+separate `SELECT` in the same backend session.
+
 ## Build, test, and clean
 
 ```sh
